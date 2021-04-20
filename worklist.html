@@ -1,153 +1,178 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
   <title>Project Name work-list</title>
   <link rel="stylesheet" data-description="정보구조도 스타일" href="./css/index.css" />
   <style>
-    em{display: block; font-style: normal; font-size: 11px; color: #999;}
+    em {
+      display: block;
+      font-style: normal;
+      font-size: 11px;
+      color: #999;
+    }
   </style>
 </head>
+
 <body>
-    <div class="header">
-        <div class="project-name">Project Name</div>
-        <div class="document-name">퍼블리싱 현황판</div>
+  <div class="header">
+    <div class="project-name">Project Name</div>
+    <div class="document-name">퍼블리싱 현황판</div>
 
-        <div class="totalBox">
-            <span class="total_all"></span>
-            <span class="total_before"></span>
-            <span class="total_ing"></span>
-            <span class="total_confirm"></span>
-            <span class="total_ok"></span>
-            <span class="total_progress"></span>
-        </div>
-
-        <div class="nav">
-            <div></div>
-            <a href="_styleguide/docs.html" class="nav__link" target="_blank">퍼블리싱 가이드</a>
-        </div>
+    <div class="totalBox">
+      <span class="total_all"></span>
+      <span class="total_before"></span>
+      <span class="total_ing"></span>
+      <span class="total_confirm"></span>
+      <span class="total_ok"></span>
+      <span class="total_progress"></span>
     </div>
 
-    <div class="contents">
+    <div class="nav">
+      <div></div>
+      <a href="_styleguide/docs.html" class="nav__link" target="_blank">퍼블리싱 가이드</a>
+    </div>
+  </div>
 
-        <div class="section">
-            <div class="heading">
-                KOR
-                <div class="totalBox -pc" style="display: none;">
-                    <span class="total_all"></span>
-                    <span class="total_before"></span>
-                    <span class="total_ing"></span>
-                    <span class="total_confirm"></span>
-                    <span class="total_ok"></span>
-                    <span class="total_progress"></span>
-                </div>
-            </div>
-            <div class="go_link">
-                <!-- <a href="#category1" class="catebtn">MAIN</a> -->
-            <a href="javascript:void(0)" class="catebtn" title="member">회원</a>
-            <a href="javascript:void(0)" class="catebtn" title="benefit">혜택</a>
-            <a href="javascript:void(0)" class="catebtn" title="shop">쇼핑</a>
-            <a href="javascript:void(0)" class="catebtn" title="pay">결제</a>
-            <a href="javascript:void(0)" class="catebtn" title="point">포인트</a>
-            <a href="javascript:void(0)" class="catebtn" title="finance">금융</a>
-            <a href="javascript:void(0)" class="catebtn" title="view">더보기</a>
-            <a href="javascript:void(0)" class="catebtn" title="customer">고객센터</a>
-            <a href="javascript:void(0)" class="catebtn" title="footerSec">Footer</a>
-            <!-- <a href="javascript:void(0)" class="catebtn">서비스 안내</a> -->
-            <!-- <a href="javascript:void(0)" class="catebtn">이용약관</a> -->
-            <a href="javascript:void(0)" class="catebtn" title="headerSec">Header</a>
-            <a href="javascript:void(0)" class="catebtn" title="error">에러</a>
-            </div>
-            <div class="table">
-                <div class="title">
-                    <div>1 Depth</div>
-                    <div>2 Depth</div>
-                    <div>3 Depth</div>
-                    <div>4 Depth</div>
-                    <div>5 Depth</div>
-                    <div>6 Depth</div>
-                    <div>화면명</div>
-                    <div>Folder</div>
-                    <div>Screen ID</div>
-                    <div>publish</div>
-                    <div>Progress</div>
-                    <div>Memo</div>
-                </div>
-                <!-- progress는 작업전, 작업중, 검수중, 완료 4가지 입니다. -->
-                <a href="./main.html" class="-w">
-                  <div>메인</div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div class="center-pop">메인 팝업 Type 1</div>
-                  <div>main</div>
-                  <div></div>
-                  <div></div>
-                  <div><i progress="작업중"></i></div>
-                  <div>
-                    <p>2021-01-15 수정사항 기입</p>
-                  </div>
-                </a>
-                <a href="./main.html" class="-w">
-                  <div></div>
-                  <div>회사소개</div>
-                  <div>인사말</div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div class="center-pop">메인 팝324324업 Type 1</div>
-                  <div>main</div>
-                  <div></div>
-                  <div></div>
-                  <div><i progress="작업중"></i></div>
-                  <div>
-                    <p>2021-01-15 수정사항 기입</p>
-                  </div>
-                </a>
-            </div>
+  <div class="contents">
+
+    <div class="section">
+      <div class="heading">
+        KOR
+        <div class="totalBox -pc" style="display: none;">
+          <span class="total_all"></span>
+          <span class="total_before"></span>
+          <span class="total_ing"></span>
+          <span class="total_confirm"></span>
+          <span class="total_ok"></span>
+          <span class="total_progress"></span>
         </div>
+      </div>
+      <div class="go_link">
+        <!-- <a href="#category1" class="catebtn">MAIN</a> -->
+        <a href="javascript:void(0)" class="catebtn" title="member">회원</a>
+        <a href="javascript:void(0)" class="catebtn" title="benefit">혜택</a>
+        <a href="javascript:void(0)" class="catebtn" title="shop">쇼핑</a>
+        <a href="javascript:void(0)" class="catebtn" title="pay">결제</a>
+        <a href="javascript:void(0)" class="catebtn" title="point">포인트</a>
+        <a href="javascript:void(0)" class="catebtn" title="finance">금융</a>
+        <a href="javascript:void(0)" class="catebtn" title="view">더보기</a>
+        <a href="javascript:void(0)" class="catebtn" title="customer">고객센터</a>
+        <a href="javascript:void(0)" class="catebtn" title="footerSec">Footer</a>
+        <!-- <a href="javascript:void(0)" class="catebtn">서비스 안내</a> -->
+        <!-- <a href="javascript:void(0)" class="catebtn">이용약관</a> -->
+        <a href="javascript:void(0)" class="catebtn" title="headerSec">Header</a>
+        <a href="javascript:void(0)" class="catebtn" title="error">에러</a>
+      </div>
+      <div class="table">
+        <div class="title">
+          <div>1 Depth</div>
+          <div>2 Depth</div>
+          <div>3 Depth</div>
+          <div>4 Depth</div>
+          <div>5 Depth</div>
+          <div>6 Depth</div>
+          <div>화면명</div>
+          <div>Folder</div>
+          <div>Screen ID</div>
+          <div>publish</div>
+          <div>Progress</div>
+          <div>Memo</div>
+        </div>
+        <!-- progress는 작업전, 작업중, 검수중, 완료 4가지 입니다. -->
+        <a href="./main.html" class="-w">
+          <div>메인</div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div>화면ID-ID-001</div>
+          <div>main</div>
+          <div></div>
+          <div></div>
+          <div><i progress="작업중"></i></div>
+          <div>
+            <p>2021-01-15 수정사항 기입</p>
+          </div>
+        </a>
+        <a href="./sub.html" class="-w">
+          <div></div>
+          <div>회사소개</div>
+          <div>인사말</div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div>화면ID-ID-002</div>
+          <div>about</div>
+          <div></div>
+          <div></div>
+          <div><i progress="검수중"></i></div>
+          <div>
+            <p>2021-01-15 수정사항 기입</p>
+          </div>
+        </a>
+        <a href="./sub2.html" class="-w">
+          <div></div>
+          <div></div>
+          <div>연혁</div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div class="center-pop">화면ID-ID-003</div>
+          <div>about</div>
+          <div></div>
+          <div></div>
+          <div><i progress="완료"></i></div>
+          <div>
+            <p></p>
+          </div>
+        </a>
+      </div>
     </div>
-    <iframe src="#none" class="myframe"></iframe>
+  </div>
+  <iframe src="#none" class="myframe"></iframe>
 
-    <div class="function">
-      <button type="button" class="function__top">TOP</button>
-      <button type="button" class="function__latest">최근 본 파일</button>
-    </div>
+  <div class="function">
+    <button type="button" class="function__top">TOP</button>
+    <button type="button" class="function__latest">최근 본 파일</button>
+  </div>
 
-    <script src="./js/jquery-2.2.4.min.js"></script>
-    <script src="./js/lodash.min.js"></script>
-    <script src="./js/index.js"></script>
-    <script src="./js/gsap.min.js"></script>
-    <script>
-      $(document).ready(function($) {
-        var header_height = $('.header').outerHeight();
-        var menulist_height = $('.menulist').outerHeight();
+  <script src="./js/jquery-2.2.4.min.js"></script>
+  <script src="./js/lodash.min.js"></script>
+  <script src="./js/index.js"></script>
+  <script src="./js/gsap.min.js"></script>
+  <script>
+    $(document).ready(function ($) {
+      var header_height = $('.header').outerHeight();
+      var menulist_height = $('.menulist').outerHeight();
 
-        //바로가기
-        $(".go_link a").each(function(q){
-          $(this).on("click", function(){
-            var findID = $(this).attr("title");
-            gsap.to($("body, html"), {duration: 0, scrollTop: $("#"+findID).offset().top - 75});
-          });
+      //바로가기
+      $(".go_link a").each(function (q) {
+        $(this).on("click", function () {
+          var findID = $(this).attr("title");
+          gsap.to($("body, html"), { duration: 0, scrollTop: $("#" + findID).offset().top - 75 });
         });
-
-        //번호 붙이기
-        // $(".table a").each(function(q) {
-        //   var index = q+1;
-        //     $(this).find("div:first-child").append("<em>"+index+"<\/em>");
-        // });
       });
 
-      function popupCenter(href, w, h) {
-        var popupX = (document.body.offsetWidth / 2) - (w/2);
-        popupX += window.screenLeft;
-        var popupY= (window.screen.height / 2) - (h/2);
+      //번호 붙이기
+      // $(".table a").each(function(q) {
+      //   var index = q+1;
+      //     $(this).find("div:first-child").append("<em>"+index+"<\/em>");
+      // });
+    });
 
-        window.open(href, 'pop_name', 'status=no, scrollbars=yes, height=700, width=1076, left='+ popupX + ', top='+ popupY);
-      }
-    </script>
+    function popupCenter(href, w, h) {
+      var popupX = (document.body.offsetWidth / 2) - (w / 2);
+      popupX += window.screenLeft;
+      var popupY = (window.screen.height / 2) - (h / 2);
+
+      window.open(href, 'pop_name', 'status=no, scrollbars=yes, height=700, width=1076, left=' + popupX + ', top=' + popupY);
+    }
+  </script>
 </body>
+
 </html>
