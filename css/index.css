@@ -11,7 +11,7 @@
 }
 body {
     margin: 0;
-    background-color: rgba(239, 42, 35, 0.02);
+    /* background-color: rgba(239, 42, 35, 0.02); */
     font-size: 1.6rem;
     line-height: 1.5;
     font-family: 'Noto Sans KR', sans-serif;
