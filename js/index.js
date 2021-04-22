@@ -90,7 +90,7 @@ $(document).on('ready', function () {
       $(el).children('div:nth-last-child(4)').prepend(SID);
     }
 
-    $(this).find('div').eq(8).mouseover(function (e) { //iframe 미리보기
+    $(this).find('div.s-id').mouseover(function (e) { //iframe 미리보기
       e.preventDefault();
 
       $('.myframe').attr('src', path).show();
