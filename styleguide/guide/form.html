@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>퍼블리싱 스타일 가이드</title>
+  <link rel="stylesheet" href="../assets/css/index.css">
+  <link rel="stylesheet" href="../assets/styles/shCore.css"/>
+	<link rel="Stylesheet" href="../assets/styles/shCoreEclipse.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <script src="../assets/scripts/XRegExp.js"></script> <!-- XRegExp is bundled with the final shCore.js during build -->
+	<script src="../assets/scripts/shCore.js"></script>
+	<script src="../assets/scripts/shBrushJScript.js"></script>
+	<script src="../assets/scripts/shBrushXml.js"></script>
+	<script src="../assets/scripts/shBrushCss.js"></script>
+  <script type="text/javascript">SyntaxHighlighter.all();</script>
+
+
+
+  <style>
+    .form-text {position: relative; height: 42px; border: 1px solid #d8d8d8; border-radius: 5px; background-color: #fff;}
+    .form-text:after {content: ""; clear:both; display: block; height: 0;}
+    .form-text input {padding: 5px 20px; width: 100%; height: 100%; border-radius: 5px; outline: 0; border: 0;}
+  </style>
+</head>
+<body>
+  <div id="wrap">
+    <header>
+      <h1>프로젝트 이름 가이드</h1>
+      <div class="btn-wrap">
+        <a href="../../worklist.html">작업현황판  <i class="fas fa-angle-right"></i></a>
+      </div>
+    </header>
+    <div id="contents">
+      <aside>
+        <a href="../guide-intro.html">기본 정책 <i class="fas fa-angle-right"></i></a>
+        <a href="../guide-markup.html">마크업 규칙 <i class="fas fa-angle-right"></i></a>
+        <a href="../guide-css.html">CSS 규칙 <i class="fas fa-angle-right"></i></a>
+        <a href="../guide-naming.html">네이밍 규칙 <i class="fas fa-angle-right"></i></a>
+        <a href="javascript:" class="active">스타일 가이드 <i class="fas fa-angle-right"></i></a>
+        <ul class="guide-list">
+          <li><a href="../guide/form.html" class="active">FORM</a></li>
+          <li><a href="../guide/paragraph.html">PARAGRAPH</a></li>
+          <li><a href="../guide/accordion.html">ACCORDION</a></li>
+          <li><a href="../guide/tab.html">TAB</a></li>
+        </ul>
+      </aside>
+      <div class="content-area">
+        <h2>스타일 가이드</h2>
+        <section>
+          <h3>INPUT</h3>
+          <!-- sample -->
+          <div class="sample">
+            <div class="form-text">
+              <input id="" name="" type="input" placeholder="아이디를 입력하세요.">
+            </div>
+          </div>
+          <!-- //sample -->
+
+          <script type="syntaxhighlighter" class="brush: xml;">
+            <div class="form-text">
+              <input id="" name="" type="input" placeholder="아이디를 입력하세요.">
+            </div>
+          </script>
+          <script type="syntaxhighlighter" class="brush: css;">
+            .form-text {position: relative; height: 42px; border: 1px solid #d8d8d8; border-radius: 5px; background-color: #fff;}
+            .form-text:after {content: ""; clear:both; display: block; height: 0;}
+            .form-text input {padding: 5px 20px; width: 100%; height: 100%; border-radius: 5px; outline: 0; border: 0;}
+          </script>
+        </section>
+        <section>
+          <h3>PASSWORD</h3>
+          <!-- sample -->
+          <div class="sample">
+            <div class="form-text">
+              <input id="" name="" type="password" placeholder="비밀번호 (8~15자리 숫자, 영문자, 특수문자)를 입력하세요." maxlength="15">
+            </div>
+          </div>
+          <!-- //sample -->
+
+          <script type="syntaxhighlighter" class="brush: css;">
+            .form-text {position: relative; height: 42px; border: 1px solid #d8d8d8; border-radius: 5px; background-color: #fff;}
+            .form-text:after {content: ""; clear:both; display: block; height: 0;}
+            .form-text input {padding: 5px 20px; width: 100%; height: 100%; border-radius: 5px; outline: 0; border: 0;}
+          </script>
+        </section>
+        <section>
+          <h3>CHECKBOX</h3>
+          <!-- sample -->
+          <div class="sample">
+            <div class="form-chk square mt20">
+              <div class="checkbox">
+                <input type="checkbox" id="saveId">
+                <label for="saveId">아이디저장</label> 
+              </div>
+            </div>
+          </div>
+          <!-- //sample -->
+
+          <script type="syntaxhighlighter" class="brush: xml;">
+            <div class="form-chk square mt20">
+              <div class="checkbox">
+                <input type="checkbox" id="saveId">
+                <label for="saveId">아이디저장</label> 
+              </div>
+            </div>
+          </script>
+          <script type="syntaxhighlighter" class="brush: css;">
+            .form-chk {position: relative; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap;}
+            .form-chk .checkbox {position: relative; margin-right: 20px;}
+          </script>
+        </section>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
