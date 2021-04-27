@@ -63,3 +63,4 @@ header .btn-wrap a{color: #fff; font-size: 16px; line-height: 80px;}
 ul.list li{position: relative; margin-bottom: 4px; font-size: 14px;}
 ul.list li{position: relative; padding-left: 14px; margin-bottom: 4px; font-size: 14px;}
 ul.list li::before{content: "-"; display: inline-block; position: absolute; top: 0; left: 0;}
+ul.list.no-dash li::before{content: "";}
